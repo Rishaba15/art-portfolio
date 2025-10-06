@@ -13,14 +13,13 @@ const PortfolioItem = ({ title, description, imgSrc }) => (
 
 const PortfolioGrid = () => {
   // --- CUSTOMIZE THIS ARRAY WITH YOUR OWN PROJECTS ---
-  const projects = [
-    { id: 1, imgSrc: '/public/tom and jerry.jpeg' },
-    { id: 2, imgSrc: '/public/shiva.jpeg' },
-    { id: 3, imgSrc: '/public/vikram.jpeg' },
-    { id: 4, imgSrc: '/public/sapna.jpeg' },
-    { id: 5, imgSrc: 'public/anime.jpeg' },
-    { id: 6, imgSrc: 'public/glass.jpeg' },
-  ];
+    const projects = [
+      { id: 1, imgSrc: 'https://res.cloudinary.com/dnnowub0q/image/upload/v1759744334/sapna_ibe0gr.jpg' },
+      { id: 2, imgSrc: 'https://res.cloudinary.com/dnnowub0q/image/upload/v1759744334/shiva_zphokx.jpg' },
+      { id: 3, imgSrc: 'https://res.cloudinary.com/dnnowub0q/image/upload/v1759744335/glass_rq0o6j.jpg' },
+      { id: 4, imgSrc: 'https://res.cloudinary.com/dnnowub0q/image/upload/v1759744335/tom_and_jerry_nc6wbj.jpg' },
+      { id: 5, imgSrc: 'https://res.cloudinary.com/dnnowub0q/image/upload/v1759744336/anime_mwwdtr.jpg' },
+    ];
   // ----------------------------------------------------
 
   return (
